@@ -1,6 +1,7 @@
 # Computational Neuroscience Tutorial 2024
 This tutorial has been designed for the following classes:
 
+- [2023] Brain modelling, AI BSc, UNIMI/PI/B
 - [22-23-24] Numerical methods in Neuroscience, Physics MSc, UNIPI, Pisa, Italy
 - [21-22-23] Biorobotics and Complex Systems, Physics MSc, UNIPI, Pisa, Italy
 - [21-22-23] Information Theory and Neural Modeling for Neural Engineering, PhD in Biorobotics, SSSA, Pisa
