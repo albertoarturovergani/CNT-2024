@@ -5,7 +5,7 @@ This tutorial has been designed for the following classes:
 - [22-23-24] Numerical methods in Neuroscience, Physics MSc, UNIPI, Pisa, Italy
 - [21-22-23] Biorobotics and Complex Systems, Physics MSc, UNIPI, Pisa, Italy
 - [21-22-23] Neural Modeling for Neural Engineering, PhD in Biorobotics, SSSA, Pisa
-- [2021] PhD class on Large Scale Network Simulations, PhD in Neuroscience, INT, Marseille, France
+- [2021] Large Scale Network Simulations, PhD in Neuroscience, INT, Marseille, France
 
 ## Introduction on Spiking Neural Networks (SNNs) by using PyNN language 
 
