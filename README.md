@@ -1,10 +1,10 @@
 # Computational Neuroscience Tutorial 2024
 This tutorial has been designed for the following classes:
 
-- [22-23] Numerical methods in Neuroscience, Physics MSc, University of Pisa, Italy
-- [21-22-23] Biorobotics and Complex Systems, Physics MSc, University of Pisa, Italy
-- [21-22-23] Information Theory and Neural Modeling for Neural Engineering, PhD Program in Biorobotics, Scuola Superiore Sant'Anna, Pisa
-- [2021] PhD class on Large Scale Network Simulations, NeuroSchool PhD Program, INT, Marseille, France
+- [22-23-24] Numerical methods in Neuroscience, Physics MSc, UNIPI, Pisa, Italy
+- [21-22-23] Biorobotics and Complex Systems, Physics MSc, UNIPI, Pisa, Italy
+- [21-22-23] Information Theory and Neural Modeling for Neural Engineering, PhD in Biorobotics, SSSA, Pisa
+- [2021] PhD class on Large Scale Network Simulations, PhD in Neuroscience, INT, Marseille, France
 
 ## Introduction on Spiking Neural Networks (SNNs) by using PyNN language 
 
@@ -21,7 +21,7 @@ pip install PyNN
 
 1. make the EBRAINS credentials to access the SpiNNaker server (https://spinn-20.cs.man.ac.uk/hub/login)
 1. login on the Jupyter Lab interface
-1. clone this repository `git clone https://github.com/albertoarturovergani/CNT-2023`
+1. clone this repository `git clone https://github.com/albertoarturovergani/CNT-2024`
 1. Open the directory `notebooks/` and run the [CNT notebook](notebooks/CNT_notebook.ipynb)
 1. Some suggestions: `pip install matplotlib==3.2.2`
 
@@ -54,8 +54,10 @@ pip install PyNN
 - [diverging network](notebooks/eg_diverging-network.ipynb)
 - [small-world network](notebooks/eg_small-world-network.ipynb)
 - [testing cell models network](notebooks/eg_testing-cell-models-network.ipynb)
+- [testing single cell](notebooks/eg_testing-single-cell.ipynb)
+- [testing single clique](notebooks/eg_testing-single-clique.ipynb)
 - [testing STDP model network](notebooks/eg_testing-STDP-model-network.ipynb)
-- [VA_balance network](notebooks/eg_balance-network.ipynb)
+- [VA_balance network](notebooks/paper_balance-network.ipynb)
 
 ### Knowledge assumptions: 
 
