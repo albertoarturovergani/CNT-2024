@@ -1,5 +1,5 @@
 # avoid dirs
-./notebooks/reports/
+notebooks/reports/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
