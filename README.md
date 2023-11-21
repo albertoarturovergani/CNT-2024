@@ -23,7 +23,7 @@ pip install PyNN
 1. make the EBRAINS credentials to access the SpiNNaker server (https://spinn-20.cs.man.ac.uk/hub/login)
 1. login on the Jupyter Lab interface
 1. clone this repository `git clone https://github.com/albertoarturovergani/CNT-2024`
-1. Open the directory `notebooks/` and run the [CNT notebook](notebooks/CNT_notebook.ipynb)
+1. Open the directory `notebooks/` and run the [entry-network](notebooks/eg_entry-network.ipynb) selecting the sPyNNaker kernel
 
 ## Content:
 
