@@ -35,7 +35,7 @@ def extractSpike(spikeData):
 def recover_results(outputs):
     results = {}
     for key in outputs.keys(): # to extract the name of the layer, e.g., Exc, Inh, Thalamus, etc  
-        
+        print(key)
         # to get voltage and conductances
         for analogsignal in outputs[key].segments[0].analogsignals:
             print(analogsignal.name)

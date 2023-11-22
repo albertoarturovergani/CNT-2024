@@ -48,16 +48,16 @@ pip install PyNN
 
 ### Network examples 
 
-- [entry network](notebooks/eg_entry-network.ipynb)
-- [decaying network](notebooks/eg_decaying-network.ipynb)
-- [persistent network](notebooks/eg_persistent-network.ipynb)
-- [diverging network](notebooks/eg_diverging-network.ipynb)
-- [small-world network](notebooks/eg_small-world-network.ipynb)
-- [testing cell models network](notebooks/eg_testing-cell-models-network.ipynb)
-- [testing single cell](notebooks/eg_testing-single-cell.ipynb)
-- [testing single clique](notebooks/eg_testing-single-clique.ipynb)
-- [testing STDP model network](notebooks/eg_testing-STDP-model-network.ipynb)
-- [VA_balance network](notebooks/paper_balance-network.ipynb)
+- [entry network](eg_entry-network.ipynb)
+- [single cell](eg_single-cell.ipynb)
+- [single clique](eg_single-clique.ipynb)
+- [decaying network](eg_decaying-network.ipynb)
+- [diverging network](eg_diverging-network.ipynb)
+- [persistent network](eg_persistent-network.ipynb)
+- [small-world network](eg_small-world-network.ipynb)
+- [testing cell models network](eg_testing-cell-models-network.ipynb)
+- [testing STDP model network](eg_testing-STDP-model-network.ipynb)
+- [VA_balance network](paper_balance-network.ipynb)
 
 ### Knowledge assumptions: 
 
