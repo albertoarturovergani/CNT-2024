@@ -11,17 +11,12 @@ This tutorial has been designed for the following classes:
 
 PyNN is a Python library for simulating neural networks. It provides a common interface for a variety of neural simulators, such as NEURON, NEST, and Brian, making it easy to switch between them without having to change the model code. PyNN allows users to define and simulate neural networks using a high-level, neuron-centric interface, similar to the way models are described in neuroscience literature. It is used in many research and education projects to study neural systems, and can be used to simulate models of the brain, as well as artificial neural networks.
 
-## General PyNN [installation](http://neuralensemble.org/docs/PyNN/installation.html#installing-nest-and-pynest):
-### PyNN and classic simulators
-```
-pip install <the-simulator> e.g. brain2, NEURON
-pip install PyNN
-```
-
-### PyNN on the SpiNNaker neuromorphic system:
+## PyNN on the SpiNNaker neuromorphic system:
 
 1. make the EBRAINS credentials to access the SpiNNaker server (https://spinn-20.cs.man.ac.uk/hub/login)
 1. login on the Jupyter Lab interface
+1. install brian2 simulator `pip install brain2`
+1. install [PyNN](http://neuralensemble.org/docs/PyNN/installation.html#installing-nest-and-pynest) module `pip install PyNN`
 1. clone this repository `git clone https://github.com/albertoarturovergani/CNT-2024`
 1. Open the directory `notebooks/` and run a test simulation with [entry-network](notebooks/eg_entry-network.ipynb) by selecting the sPyNNaker kernel
 
