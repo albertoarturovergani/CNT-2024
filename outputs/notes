@@ -1,0 +1,7 @@
+Some notebooks usually save their results in this folder. 
+
+If other don't, feel free to copy-past-adapt useful code inside them for saving pkl/img/json from the saving notebooks.
+
+e.g.,
+- for neural pops: pops.write_data(f'{saveName}-{recording}.pkl')
+- for plots: fig.savefig(f'{saveName}.jpeg', dpi=70, bbox_inches='tight', facecolor='white')
