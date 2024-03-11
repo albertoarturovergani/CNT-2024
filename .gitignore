@@ -1,5 +1,6 @@
 # avoid dirs
 notebooks/reports/
+notebooks/to-check/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
