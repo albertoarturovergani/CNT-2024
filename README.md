@@ -40,20 +40,24 @@ PyNN is a Python library for simulating neural networks. It provides a common in
 
 ### Tutorial notebook
 
-- [CNT notebook](notebooks/CNT_notebook.ipynb)
+- [CNT notebook](notebooks/intro/CNT_notebook.ipynb)
 
 ### Network examples 
 
-- [entry network](eg_entry-network.ipynb)
-- [single cell](eg_single-cell.ipynb)
-- [single clique](eg_single-clique.ipynb)
-- [decaying network](eg_decaying-network.ipynb)
-- [diverging network](eg_diverging-network.ipynb)
-- [persistent network](eg_persistent-network.ipynb)
-- [small-world network](eg_small-world-network.ipynb)
-- [testing cell models network](eg_testing-cell-models-network.ipynb)
-- [testing STDP model network](eg_testing-STDP-model-network.ipynb)
-- [VA_balance network](paper_balance-network.ipynb)
+- [entry network](notebooks/intro/eg_entry-network.ipynb)
+- [single cell](notebooks/intro/eg_single-cell.ipynb)
+- [single clique](notebooks/intro/eg_single-clique.ipynb)
+- [decaying network](notebooks/intro/eg_decaying-network.ipynb)
+- [diverging network](notebooks/intro/eg_diverging-network.ipynb)
+- [persistent network](notebooks/intro/eg_persistent-network.ipynb)
+- [small-world network](notebooks/intro/eg_small-world-network.ipynb)
+- [testing cell models network](notebooks/intro/eg_testing-cell-models-network.ipynb)
+- [testing STDP model network](notebooks/intro/eg_testing-STDP-model-network.ipynb)
+- [VA_balance network](notebooks/intro/paper_balance-network.ipynb)
+
+### Numerical methods 
+- [benchmark on neuron models](notebooks/numerical-methods/benchmark.ipynb)
+- [benchmark on network models](notebooks/numerical-methods/infieri-brian2/)
 
 ### Knowledge assumptions: 
 
