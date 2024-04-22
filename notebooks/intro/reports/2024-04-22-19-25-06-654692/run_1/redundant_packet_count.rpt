@@ -1,0 +1,57 @@
+core vertex_4_4_2_Excitatory_Cells:0:255 
+
+    35768 packets received.
+    149 were detected as redundant packets by the bitfield filter.
+    0 were detected as having no targets after the DMA stage.
+    0 were detected as packets which we should not have received in the first place. 
+    Overall this makes a redundant percentage of 0.41657347349586227
+core vertex_5_4_2_Excitatory_Cells:256:511 
+
+    35768 packets received.
+    41 were detected as redundant packets by the bitfield filter.
+    0 were detected as having no targets after the DMA stage.
+    0 were detected as packets which we should not have received in the first place. 
+    Overall this makes a redundant percentage of 0.11462760008946545
+core vertex_5_5_2_Excitatory_Cells:512:767 
+
+    35768 packets received.
+    464 were detected as redundant packets by the bitfield filter.
+    0 were detected as having no targets after the DMA stage.
+    0 were detected as packets which we should not have received in the first place. 
+    Overall this makes a redundant percentage of 1.2972489375978529
+core vertex_4_5_2_Excitatory_Cells:768:1023 
+
+    35768 packets received.
+    131 were detected as redundant packets by the bitfield filter.
+    0 were detected as having no targets after the DMA stage.
+    0 were detected as packets which we should not have received in the first place. 
+    Overall this makes a redundant percentage of 0.3662491612614628
+core vertex_3_4_2_Inhibitory_Cells:0:255 
+
+    35768 packets received.
+    360 were detected as redundant packets by the bitfield filter.
+    0 were detected as having no targets after the DMA stage.
+    0 were detected as packets which we should not have received in the first place. 
+    Overall this makes a redundant percentage of 1.0064862446879894
+core vertex_3_3_2_Excitatory_Cells:1024:1199 
+
+    35768 packets received.
+    821 were detected as redundant packets by the bitfield filter.
+    0 were detected as having no targets after the DMA stage.
+    0 were detected as packets which we should not have received in the first place. 
+    Overall this makes a redundant percentage of 2.2953477969134424
+core vertex_4_3_2_Inhibitory_Cells:256:299 
+
+    35768 packets received.
+    14776 were detected as redundant packets by the bitfield filter.
+    0 were detected as having no targets after the DMA stage.
+    0 were detected as packets which we should not have received in the first place. 
+    Overall this makes a redundant percentage of 41.31066875419369
+overall, the core with the most incoming packets had 35768 packets.
+         The core with the least incoming packets had 35768 packets.
+         The core with the most redundant packets had 14776 packets.
+         The core with the least redundant packets had 41 packets.
+         The average incoming and redundant were 35768 and 2391.714285714286.
+         The max and min percentages of redundant packets are 41.31066875419369 and 0.11462760008946545. 
+         The average redundant percentages from each core were 6.686743138319967 accordingly.
+          The total packets flown in system was 250376

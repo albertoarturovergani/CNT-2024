@@ -1,0 +1,17 @@
+        Partitioning Information by Vertex
+        ===============================
+
+Generated: Mon Apr 22 19:29:57 2024 for target machine '10.11.207.129'
+
+**** Vertex: 'AbstractPopulationVertex_1'
+Model: AbstractPopulationVertex
+Pop size: 100
+Machine Vertices: 
+  Slice 0:99 (100 atoms) 
+
+**** Vertex: 'SpikeSourceArrayVertex_2'
+Model: SpikeSourceArrayVertex
+Pop size: 100
+Machine Vertices: 
+  Slice 0:99 (100 atoms) 
+
