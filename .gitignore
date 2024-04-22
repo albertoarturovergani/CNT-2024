@@ -1,6 +1,7 @@
 # avoid dirs
 notebooks/reports/
 notebooks/to-check/
+notebooks/numerical-methods/old
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
