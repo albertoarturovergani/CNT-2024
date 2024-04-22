@@ -56,7 +56,7 @@ PyNN is a Python library for simulating neural networks. It provides a common in
 - [VA_balance network](notebooks/intro/paper_balance-network.ipynb)
 
 ### Numerical methods 
-- [benchmark on neuron models](notebooks/numerical-methods/benchmark.ipynb)
+- [benchmark on neuron models](notebooks/numerical-methods/)
 - [benchmark on network models](notebooks/numerical-methods/infieri-brian2/)
 
 ### Knowledge assumptions: 
