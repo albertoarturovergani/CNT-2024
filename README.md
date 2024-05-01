@@ -10,9 +10,11 @@ This tutorial has been designed for the following classes:
 ## Introduction to
 
 - Spiking Neural Networks (SNNs) by using PyNN language and/or Brian2 stand-alone simulator
+
 PyNN is a Python library for simulating neural networks. It provides a common interface for a variety of neural simulators, such as NEURON, NEST, and Brian, making it easy to switch between them without having to change the model code. PyNN allows users to define and simulate neural networks using a high-level, neuron-centric interface, similar to the way models are described in neuroscience literature. It is used in many research and education projects to study neural systems, and can be used to simulate models of the brain, as well as artificial neural networks. Brian is a simulator for spiking neural networks. It is written in the Python programming language and is available on almost all platforms. 
 
 - Neural mass modelling with The Virtual Brain simulator 
+
 TheVirtualBrain is a framework for the simulation of the dynamics of large-scale brain networks with biologically realistic connectivity. TheVirtualBrain uses tractographic data (DTI/DSI) to generate connectivity matrices and build cortical and subcortical brain networks. The connectivity matrix defines the connection strengths and time delays via signal transmission between all network nodes. Various neural mass models are available in the repertoire of TheVirtualBrain and define the dynamics of a network node. Together, the neural mass models at the network nodes and the connectivity matrix define the Virtual Brain. TheVirtualBrain simulates and generates the time courses of various forms of neural activity including Local Field Potentials (LFP) and firing rate, as well as brain imaging data such as EEG, MEG and BOLD activations as observed in fMRI. TheVirtualBrain is foremost a scientific simulation platform and provides all means necessary to generate, manipulate and visualize connectivity and network dynamics. In addition, TheVirtualBrain comprises a set of classical time series analysis tools, structural and functional connectivity analysis tools, as well as parameter exploration facilities by launching parallel simulations on a cluster.
 
 ## PyNN on the SpiNNaker neuromorphic system:
