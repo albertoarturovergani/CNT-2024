@@ -17,12 +17,13 @@ PyNN is a Python library for simulating neural networks. It provides a common in
 
 TheVirtualBrain is a framework for the simulation of the dynamics of large-scale brain networks with biologically realistic connectivity. TheVirtualBrain uses tractographic data (DTI/DSI) to generate connectivity matrices and build cortical and subcortical brain networks. The connectivity matrix defines the connection strengths and time delays via signal transmission between all network nodes. Various neural mass models are available in the repertoire of TheVirtualBrain and define the dynamics of a network node. Together, the neural mass models at the network nodes and the connectivity matrix define the Virtual Brain. TheVirtualBrain simulates and generates the time courses of various forms of neural activity including Local Field Potentials (LFP) and firing rate, as well as brain imaging data such as EEG, MEG and BOLD activations as observed in fMRI. TheVirtualBrain is foremost a scientific simulation platform and provides all means necessary to generate, manipulate and visualize connectivity and network dynamics. In addition, TheVirtualBrain comprises a set of classical time series analysis tools, structural and functional connectivity analysis tools, as well as parameter exploration facilities by launching parallel simulations on a cluster.
 
-## PyNN on the SpiNNaker neuromorphic system:
+## CNT repository on the SpiNNaker neuromorphic system:
 
 1. make the EBRAINS credentials to access the SpiNNaker server (https://spinn-20.cs.man.ac.uk/hub/login)
 1. login on the Jupyter Lab interface
-1. install brian2 simulator `pip install brain2`
+1. install [brian2](https://brian2.readthedocs.io/en/stable/index.html) simulator `pip install brain2`
 1. install [PyNN](http://neuralensemble.org/docs/PyNN/installation.html) module `pip install PyNN`
+1. install [TVB](https://github.com/the-virtual-brain/tvb-root/tree/master) module `pip install tvb-library tvb-framework`
 1. clone this repository `git clone https://github.com/albertoarturovergani/CNT-2024`
 1. Open the directory `notebooks/` and run a test with [balance network](notebooks/paper_balance-network.ipynb) by selecting the sPyNNaker kernel
 1. if you receive any errors, write to albertoarturo.vergani@santannapisa.it
