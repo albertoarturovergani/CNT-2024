@@ -78,7 +78,7 @@ void _run_neurongroup_group_variable_set_conditional_codeobject()
 
 
     ///// CONSTANTS ///////////
-    const int32_t N = 17;
+    const int64_t N = 17;
 const size_t _numV = 17;
 const double V_3 = - 0.001;
 const double V_4 = 0.0145;

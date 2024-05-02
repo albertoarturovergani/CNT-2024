@@ -148,7 +148,7 @@ void _write_arrays()
 	using namespace brian;
 
 	ofstream outfile__array_defaultclock_dt;
-	outfile__array_defaultclock_dt.open("results\\_array_defaultclock_dt_1978099143", ios::binary | ios::out);
+	outfile__array_defaultclock_dt.open("results/_array_defaultclock_dt_1978099143", ios::binary | ios::out);
 	if(outfile__array_defaultclock_dt.is_open())
 	{
 		outfile__array_defaultclock_dt.write(reinterpret_cast<char*>(_array_defaultclock_dt), 1*sizeof(_array_defaultclock_dt[0]));
@@ -158,7 +158,7 @@ void _write_arrays()
 		std::cout << "Error writing output file for _array_defaultclock_dt." << endl;
 	}
 	ofstream outfile__array_defaultclock_t;
-	outfile__array_defaultclock_t.open("results\\_array_defaultclock_t_2669362164", ios::binary | ios::out);
+	outfile__array_defaultclock_t.open("results/_array_defaultclock_t_2669362164", ios::binary | ios::out);
 	if(outfile__array_defaultclock_t.is_open())
 	{
 		outfile__array_defaultclock_t.write(reinterpret_cast<char*>(_array_defaultclock_t), 1*sizeof(_array_defaultclock_t[0]));
@@ -168,7 +168,7 @@ void _write_arrays()
 		std::cout << "Error writing output file for _array_defaultclock_t." << endl;
 	}
 	ofstream outfile__array_defaultclock_timestep;
-	outfile__array_defaultclock_timestep.open("results\\_array_defaultclock_timestep_144223508", ios::binary | ios::out);
+	outfile__array_defaultclock_timestep.open("results/_array_defaultclock_timestep_144223508", ios::binary | ios::out);
 	if(outfile__array_defaultclock_timestep.is_open())
 	{
 		outfile__array_defaultclock_timestep.write(reinterpret_cast<char*>(_array_defaultclock_timestep), 1*sizeof(_array_defaultclock_timestep[0]));
@@ -178,7 +178,7 @@ void _write_arrays()
 		std::cout << "Error writing output file for _array_defaultclock_timestep." << endl;
 	}
 	ofstream outfile__array_neurongroup_i;
-	outfile__array_neurongroup_i.open("results\\_array_neurongroup_i_2649026944", ios::binary | ios::out);
+	outfile__array_neurongroup_i.open("results/_array_neurongroup_i_2649026944", ios::binary | ios::out);
 	if(outfile__array_neurongroup_i.is_open())
 	{
 		outfile__array_neurongroup_i.write(reinterpret_cast<char*>(_array_neurongroup_i), 17*sizeof(_array_neurongroup_i[0]));
@@ -188,7 +188,7 @@ void _write_arrays()
 		std::cout << "Error writing output file for _array_neurongroup_i." << endl;
 	}
 	ofstream outfile__array_neurongroup_I;
-	outfile__array_neurongroup_I.open("results\\_array_neurongroup_I_2794115400", ios::binary | ios::out);
+	outfile__array_neurongroup_I.open("results/_array_neurongroup_I_2794115400", ios::binary | ios::out);
 	if(outfile__array_neurongroup_I.is_open())
 	{
 		outfile__array_neurongroup_I.write(reinterpret_cast<char*>(_array_neurongroup_I), 17*sizeof(_array_neurongroup_I[0]));
@@ -198,7 +198,7 @@ void _write_arrays()
 		std::cout << "Error writing output file for _array_neurongroup_I." << endl;
 	}
 	ofstream outfile__array_neurongroup_n;
-	outfile__array_neurongroup_n.open("results\\_array_neurongroup_n_58745891", ios::binary | ios::out);
+	outfile__array_neurongroup_n.open("results/_array_neurongroup_n_58745891", ios::binary | ios::out);
 	if(outfile__array_neurongroup_n.is_open())
 	{
 		outfile__array_neurongroup_n.write(reinterpret_cast<char*>(_array_neurongroup_n), 17*sizeof(_array_neurongroup_n[0]));
@@ -208,7 +208,7 @@ void _write_arrays()
 		std::cout << "Error writing output file for _array_neurongroup_n." << endl;
 	}
 	ofstream outfile__array_neurongroup_V;
-	outfile__array_neurongroup_V.open("results\\_array_neurongroup_V_729996477", ios::binary | ios::out);
+	outfile__array_neurongroup_V.open("results/_array_neurongroup_V_729996477", ios::binary | ios::out);
 	if(outfile__array_neurongroup_V.is_open())
 	{
 		outfile__array_neurongroup_V.write(reinterpret_cast<char*>(_array_neurongroup_V), 17*sizeof(_array_neurongroup_V[0]));
@@ -218,7 +218,7 @@ void _write_arrays()
 		std::cout << "Error writing output file for _array_neurongroup_V." << endl;
 	}
 	ofstream outfile__array_statemonitor__indices;
-	outfile__array_statemonitor__indices.open("results\\_array_statemonitor__indices_2854283999", ios::binary | ios::out);
+	outfile__array_statemonitor__indices.open("results/_array_statemonitor__indices_2854283999", ios::binary | ios::out);
 	if(outfile__array_statemonitor__indices.is_open())
 	{
 		outfile__array_statemonitor__indices.write(reinterpret_cast<char*>(_array_statemonitor__indices), 17*sizeof(_array_statemonitor__indices[0]));
@@ -228,7 +228,7 @@ void _write_arrays()
 		std::cout << "Error writing output file for _array_statemonitor__indices." << endl;
 	}
 	ofstream outfile__array_statemonitor_N;
-	outfile__array_statemonitor_N.open("results\\_array_statemonitor_N_4140778434", ios::binary | ios::out);
+	outfile__array_statemonitor_N.open("results/_array_statemonitor_N_4140778434", ios::binary | ios::out);
 	if(outfile__array_statemonitor_N.is_open())
 	{
 		outfile__array_statemonitor_N.write(reinterpret_cast<char*>(_array_statemonitor_N), 1*sizeof(_array_statemonitor_N[0]));
@@ -239,7 +239,7 @@ void _write_arrays()
 	}
 
 	ofstream outfile__dynamic_array_statemonitor_t;
-	outfile__dynamic_array_statemonitor_t.open("results\\_dynamic_array_statemonitor_t_3983503110", ios::binary | ios::out);
+	outfile__dynamic_array_statemonitor_t.open("results/_dynamic_array_statemonitor_t_3983503110", ios::binary | ios::out);
 	if(outfile__dynamic_array_statemonitor_t.is_open())
 	{
         if (! _dynamic_array_statemonitor_t.empty() )
@@ -253,7 +253,7 @@ void _write_arrays()
 	}
 
 	ofstream outfile__dynamic_array_statemonitor_n;
-	outfile__dynamic_array_statemonitor_n.open("results\\_dynamic_array_statemonitor_n_269325948", ios::binary | ios::out);
+	outfile__dynamic_array_statemonitor_n.open("results/_dynamic_array_statemonitor_n_269325948", ios::binary | ios::out);
 	if(outfile__dynamic_array_statemonitor_n.is_open())
 	{
         for (int n=0; n<_dynamic_array_statemonitor_n.n; n++)
@@ -269,7 +269,7 @@ void _write_arrays()
 		std::cout << "Error writing output file for _dynamic_array_statemonitor_n." << endl;
 	}
 	ofstream outfile__dynamic_array_statemonitor_V;
-	outfile__dynamic_array_statemonitor_V.open("results\\_dynamic_array_statemonitor_V_940519138", ios::binary | ios::out);
+	outfile__dynamic_array_statemonitor_V.open("results/_dynamic_array_statemonitor_V_940519138", ios::binary | ios::out);
 	if(outfile__dynamic_array_statemonitor_V.is_open())
 	{
         for (int n=0; n<_dynamic_array_statemonitor_V.n; n++)

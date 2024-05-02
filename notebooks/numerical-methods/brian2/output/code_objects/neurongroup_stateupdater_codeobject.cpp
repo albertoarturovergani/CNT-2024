@@ -80,7 +80,7 @@ void _run_neurongroup_stateupdater_codeobject()
     ///// CONSTANTS ///////////
     const double C = 1.9999999999999998e-05;
 const size_t _numI = 17;
-const int32_t N = 17;
+const int64_t N = 17;
 const size_t _numV = 17;
 const double V_1 = 0.01;
 const double V_2 = 0.015;
@@ -108,22 +108,16 @@ const size_t _numn = 17;
     const size_t _vectorisation_idx = -1;
         
     const double dt = _ptr_array_defaultclock_dt[0];
-    const double _lio_1 = (1.0f*(0.5 * (V_Ca * g_Ca))/C) + (1.0f*(V_L * g_L)/C);
-    const double _lio_2 = 1.0f*1.0/C;
-    const double _lio_3 = 1.0f*(0.5 * (V_Ca * g_Ca))/C;
-    const double _lio_4 = 0.0 - (1.0f*V_1/V_2);
-    const double _lio_5 = 1.0f*1.0/V_2;
-    const double _lio_6 = 1.0f*(V_K * g_K)/C;
-    const double _lio_7 = 0.0 - ((1.0f*(0.5 * g_Ca)/C) + (1.0f*g_L/C));
-    const double _lio_8 = 1.0f*((- 0.5) * g_Ca)/C;
-    const double _lio_9 = 1.0f*g_K/C;
-    const double _lio_10 = 1.0f*1.0/lambda_n__max;
-    const double _lio_11 = 0.5 * lambda_n__max;
-    const double _lio_12 = 0.0 - (1.0f*(0.5 * V_3)/V_4);
-    const double _lio_13 = 1.0f*0.5/V_4;
-    const double _lio_14 = 0.0 - (1.0f*V_3/V_4);
-    const double _lio_15 = 1.0f*1.0/V_4;
-    const double _lio_16 = (- dt) * lambda_n__max;
+    const double _lio_1 = 1.0f*dt/C;
+    const double _lio_2 = 0.0 - V_Ca;
+    const double _lio_3 = 1.0f*1.0/V_2;
+    const double _lio_4 = 0.0 - V_1;
+    const double _lio_5 = 0.0 - V_K;
+    const double _lio_6 = 0.0 - V_L;
+    const double _lio_7 = dt * lambda_n__max;
+    const double _lio_8 = 1.0f*1.0/V_4;
+    const double _lio_9 = 0.0 - V_3;
+    const double _lio_10 = 1.0f*0.5/V_4;
 
 
     const int _N = N;
@@ -136,10 +130,8 @@ const size_t _numn = 17;
         const double I = _ptr_array_neurongroup_I[_idx];
         double V = _ptr_array_neurongroup_V[_idx];
         double n = _ptr_array_neurongroup_n[_idx];
-        const double _BA_V = 1.0f*(_lio_1 + (((_lio_2 * I) + (_lio_3 * tanh(_lio_4 + (_lio_5 * V)))) + (_lio_6 * n)))/((_lio_7 + (_lio_8 * tanh(_lio_4 + (_lio_5 * V)))) - (_lio_9 * n));
-        const double _V = (- _BA_V) + ((V + _BA_V) * exp(dt * ((_lio_7 + (_lio_8 * tanh(_lio_4 + (_lio_5 * V)))) - (_lio_9 * n))));
-        const double _BA_n = 1.0f*(_lio_10 * (- ((_lio_11 * (cosh(_lio_12 + (_lio_13 * V)) * tanh(_lio_14 + (_lio_15 * V)))) + (_lio_11 * cosh(_lio_12 + (_lio_13 * V))))))/cosh(_lio_12 + (_lio_13 * V));
-        const double _n = (- _BA_n) + ((_BA_n + n) * exp(_lio_16 * cosh(_lio_12 + (_lio_13 * V))));
+        const double _V = V + (_lio_1 * (I - (((g_Ca * ((_lio_2 + V) * (0.5 + (0.5 * tanh(_lio_3 * (_lio_4 + V)))))) + (g_K * (n * (_lio_5 + V)))) + (g_L * (_lio_6 + V)))));
+        const double _n = (_lio_7 * ((0.5 + ((- n) + (0.5 * tanh(_lio_8 * (_lio_9 + V))))) * cosh(_lio_10 * (_lio_9 + V)))) + n;
         V = _V;
         n = _n;
         _ptr_array_neurongroup_V[_idx] = V;
